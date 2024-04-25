@@ -8,6 +8,8 @@ ReactDOM.render(
   <div>
     <Keypad />
     <EyesOnMe />
+    <input type="password" onChange={()=> console.log('Entering password...')} label='password'>T</input>
   </div>,
   document.getElementById('root')
 );
+
